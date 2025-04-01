@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+        overflow: hidden; /* Evita el desplazamiento */
+        background-color: #f0f0f0; /* Color de fondo */
+        animation: moverFondo 10s linear infinite; /* Animación del fondo */
+    }
+
+    @keyframes moverFondo {
+        0% {
+            background-position: 0 0;
+        }
+        100% {
+            background-position: 100px 100px; /* Cambia la posición del fondo */
+        }
+    }
+
+    .cuadro {
+        width: 50px; /* Ancho del cuadro */
+        height: 50px; /* Alto del cuadro */
+        background-color: rgba(0, 150, 255, 0.5); /* Color del cuadro */
+        position: absolute;
+        animation: moverCuadro 5s linear infinite; /* Animación del cuadro */
+    }
+
+    @keyframes moverCuadro {
+        0% {
+            transform: translate(0, 0);
+        }
+        100% {
+            transform: translate(100px, 100px); /* Movimiento del cuadro */
+        }
+    }
+
+    /* Estilo para centrar el contenido */
+    .centrar {
+        text-align: center; /* Centra el texto y los elementos en línea */
+        margin: 20px; /* Espaciado alrededor */
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz cumpleaños Gaspar! 🍻🍾🙌🙌🎊🎊</title>
+</head>
+<body>
+    <div class="centrar">
+    <img src="imagene/texto.gif" alt="si" width="600">
+    </div>
+
+    <br>
+
+    <div class="centrar">
+    <img src="imagene/exito.png" alt="Descripción de la imagen" width="600">
+    </div>
+</body>
+</html>
